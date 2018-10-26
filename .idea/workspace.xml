@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12a894e7-4f07-4587-a306-d8188da788a6" name="Default Changelist" comment="" />
+    <list default="true" id="12a894e7-4f07-4587-a306-d8188da788a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DifferentDriversTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DifferentDriversTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DriverManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DriverManagerTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,26 +30,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="75" />
+          <entry key="java" value="77" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="75" />
+          <entry key="JAVA" value="77" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="18679" />
+          <entry key="java" value="18708" />
           <entry key="xml" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18679" />
+          <entry key="JAVA" value="18708" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="200" />
         </counts>
@@ -58,11 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JavascriptExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
+            <state relative-caret-position="123">
+              <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#callAJavaScriptFunctionOnThePage#0;class#JavascriptExecutorTest#0" />
@@ -77,6 +81,30 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DifferentDriversTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DriverManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -85,6 +113,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,18 +128,18 @@
         <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SubmitFormTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DriverManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DriverManagerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManipulationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BasicAjaxPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProcessedFormPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/AlertPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CookiesExerciseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DifferentDriversTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gridTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/JavascriptExecutorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ObjectPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ScreenshotTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/UserInteractionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DifferentDriversTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DriverManagerTest.java" />
       </list>
     </option>
   </component>
@@ -127,6 +158,7 @@
     <option name="width" value="1429" />
     <option name="height" value="933" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="true" />
@@ -184,7 +216,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/jsalisbury/Documents/Java/webdriverbasics/src/test/java/FirstTest.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540565743120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540569150328" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -461,16 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DifferentDriversTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="39" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DifferentWindowsNavTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
@@ -509,16 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DriverManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -564,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JavascriptExecutorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
+        <state relative-caret-position="123">
+          <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#callAJavaScriptFunctionOnThePage#0;class#JavascriptExecutorTest#0" />
@@ -575,6 +587,26 @@
             <element signature="method#changeTitleUsingJavascript#0;class#JavascriptExecutorTest#0" />
             <element signature="method#useJQueryToHideBodyWithNoParams#0;class#JavascriptExecutorTest#0" />
             <element signature="method#hideWebElementAsParam#0;class#JavascriptExecutorTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DriverManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DifferentDriversTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
