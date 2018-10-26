@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12a894e7-4f07-4587-a306-d8188da788a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DifferentDriversTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DifferentDriversTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DriverManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DriverManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicDataDrivenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CsvDataDrivenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data_driven.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DifferentDriversTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DifferentDriversTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DriverManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DriverManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UserInteractionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserInteractionsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,39 +21,42 @@
     <session id="-766890997">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="77" />
+          <entry key="csv" value="2" />
+          <entry key="java" value="81" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="77" />
+          <entry key="CSV" value="1" />
+          <entry key="JAVA" value="81" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="18708" />
+          <entry key="java" value="20732" />
           <entry key="xml" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18708" />
+          <entry key="JAVA" value="20732" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="200" />
         </counts>
@@ -65,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JavascriptExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+            <state relative-caret-position="1190">
+              <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#callAJavaScriptFunctionOnThePage#0;class#JavascriptExecutorTest#0" />
@@ -81,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DifferentDriversTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,12 +101,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DriverManagerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DifferentWindowsNavTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+            <state relative-caret-position="595">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BasicDataDrivenTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/data_driven.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CsvDataDrivenTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-183">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1519#1529#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,6 +178,9 @@
         <option value="$PROJECT_DIR$/src/test/java/UserInteractionsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DifferentDriversTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DriverManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicDataDrivenTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CsvDataDrivenTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/data_driven.csv" />
       </list>
     </option>
   </component>
@@ -153,10 +194,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2030" />
-    <option name="y" value="46" />
-    <option name="width" value="1429" />
-    <option name="height" value="933" />
+    <option name="x" value="2183" />
+    <option name="y" value="124" />
+    <option name="width" value="914" />
+    <option name="height" value="597" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,8 +209,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,6 +249,13 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webdriverbasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverbasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +264,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/jsalisbury/Documents/Java/webdriverbasics/src/test/java/FirstTest.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540569150328" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540582886670" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -244,19 +292,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScreenshotTest">
-    <configuration name="JavascriptExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CsvDataDrivenTest.shouldCalculateTwoValues">
+    <configuration name="BasicDataDrivenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webdriverbasics" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JavascriptExecutorTest" />
+      <option name="MAIN_CLASS_NAME" value="BasicDataDrivenTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicDataDrivenTest.shouldCalculateTwoValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webdriverbasics" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ObjectPageTest" />
+      <option name="MAIN_CLASS_NAME" value="BasicDataDrivenTest" />
+      <option name="METHOD_NAME" value="shouldCalculateTwoValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvDataDrivenTest.shouldCalculateTwoValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webdriverbasics" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CsvDataDrivenTest" />
+      <option name="METHOD_NAME" value="shouldCalculateTwoValues" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,28 +339,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webdriverbasics" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="gridTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.gridTest" />
-      <item itemvalue="JUnit.JavascriptExecutorTest" />
-      <item itemvalue="JUnit.ObjectPageTest" />
       <item itemvalue="JUnit.ScreenshotTest.goToPageScreenshot" />
       <item itemvalue="JUnit.ScreenshotTest" />
+      <item itemvalue="JUnit.BasicDataDrivenTest" />
+      <item itemvalue="JUnit.BasicDataDrivenTest.shouldCalculateTwoValues" />
+      <item itemvalue="JUnit.CsvDataDrivenTest.shouldCalculateTwoValues" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CsvDataDrivenTest.shouldCalculateTwoValues" />
+        <item itemvalue="JUnit.BasicDataDrivenTest.shouldCalculateTwoValues" />
+        <item itemvalue="JUnit.BasicDataDrivenTest" />
         <item itemvalue="JUnit.ScreenshotTest" />
         <item itemvalue="JUnit.ScreenshotTest.goToPageScreenshot" />
-        <item itemvalue="JUnit.ObjectPageTest" />
-        <item itemvalue="JUnit.JavascriptExecutorTest" />
-        <item itemvalue="JUnit.gridTest" />
       </list>
     </recent_temporary>
   </component>
@@ -318,35 +370,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2018.10.26 at 10h 44m 35s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="BasicDataDrivenTest_shouldCalculateTwoValues - 2018.10.26 at 14h 58m 16s.xml">
+      <configuration name="BasicDataDrivenTest.shouldCalculateTwoValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="gridTest - 2018.10.26 at 10h 44m 45s.xml">
-      <configuration name="gridTest" configurationId="JUnit" />
+    <history-entry file="BasicDataDrivenTest_shouldCalculateTwoValues - 2018.10.26 at 15h 02m 03s.xml">
+      <configuration name="BasicDataDrivenTest.shouldCalculateTwoValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavascriptExecutorTest - 2018.10.26 at 10h 46m 10s.xml">
-      <configuration name="JavascriptExecutorTest" configurationId="JUnit" />
+    <history-entry file="BasicDataDrivenTest_shouldCalculateTwoValues - 2018.10.26 at 15h 03m 53s.xml">
+      <configuration name="BasicDataDrivenTest.shouldCalculateTwoValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObjectPageTest - 2018.10.26 at 10h 47m 29s.xml">
-      <configuration name="ObjectPageTest" configurationId="JUnit" />
+    <history-entry file="BasicDataDrivenTest_shouldCalculateTwoValues - 2018.10.26 at 15h 06m 22s.xml">
+      <configuration name="BasicDataDrivenTest.shouldCalculateTwoValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObjectPageTest - 2018.10.26 at 10h 47m 59s.xml">
-      <configuration name="ObjectPageTest" configurationId="JUnit" />
+    <history-entry file="BasicDataDrivenTest - 2018.10.26 at 15h 08m 08s.xml">
+      <configuration name="BasicDataDrivenTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScreenshotTest_goToPageScreenshot - 2018.10.26 at 10h 48m 16s.xml">
-      <configuration name="ScreenshotTest.goToPageScreenshot" configurationId="JUnit" />
+    <history-entry file="BasicDataDrivenTest - 2018.10.26 at 15h 08m 46s.xml">
+      <configuration name="BasicDataDrivenTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScreenshotTest - 2018.10.26 at 10h 51m 57s.xml">
-      <configuration name="ScreenshotTest" configurationId="JUnit" />
+    <history-entry file="BasicDataDrivenTest - 2018.10.26 at 15h 09m 14s.xml">
+      <configuration name="BasicDataDrivenTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScreenshotTest - 2018.10.26 at 10h 52m 35s.xml">
-      <configuration name="ScreenshotTest" configurationId="JUnit" />
+    <history-entry file="BasicDataDrivenTest - 2018.10.26 at 15h 09m 50s.xml">
+      <configuration name="BasicDataDrivenTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScreenshotTest - 2018.10.26 at 10h 54m 14s.xml">
-      <configuration name="ScreenshotTest" configurationId="JUnit" />
+    <history-entry file="BasicDataDrivenTest_shouldCalculateTwoValues - 2018.10.26 at 15h 12m 55s.xml">
+      <configuration name="BasicDataDrivenTest.shouldCalculateTwoValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScreenshotTest - 2018.10.26 at 10h 54m 39s.xml">
-      <configuration name="ScreenshotTest" configurationId="JUnit" />
+    <history-entry file="CsvDataDrivenTest_shouldCalculateTwoValues - 2018.10.26 at 15h 39m 48s.xml">
+      <configuration name="CsvDataDrivenTest.shouldCalculateTwoValues" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -357,7 +409,7 @@
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.13432837" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.13539445" />
       <window_info id="Favorites" order="5" weight="0.31397972" />
       <window_info id="Structure" order="6" weight="0.08635394" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -446,9 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,11 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,21 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="92" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setup#0;class#CookiesExerciseTest#0" />
-            <element signature="method#getCookieDirectly#0;class#CookiesExerciseTest#0" />
-            <element signature="method#changeCookieVisitsCount#0;class#CookiesExerciseTest#0" />
-            <element signature="e#2682#2683#0" expanded="true" />
-            <element signature="e#2703#2704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DifferentWindowsNavTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -504,9 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,9 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,9 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,9 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -561,9 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="10" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,10 +588,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DriverManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JavascriptExecutorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        <state relative-caret-position="1190">
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#callAJavaScriptFunctionOnThePage#0;class#JavascriptExecutorTest#0" />
@@ -591,23 +612,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DriverManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DifferentDriversTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        <state relative-caret-position="374">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DifferentDriversTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DifferentWindowsNavTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="595">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicDataDrivenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CsvDataDrivenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1519#1529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data_driven.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
